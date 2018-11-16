@@ -6,6 +6,9 @@
     font-weight: bold;
     color: white;
 }
+.links:hover {
+    background-color: white;
+}
 
 body {
     font-family: Courier;
@@ -26,7 +29,7 @@ html, body {
     width: 960px;
 }
 h1 {
-    font-family: Courier;
+    font-family: 'Righteous',cursive;
     font-weight: bold;
     color:white;
     background-color: rgba(163, 163, 165, 0.089);
@@ -38,8 +41,9 @@ h1 {
   }
 
 h2 {
-    font-family: Courier;
+    font-family: 'Ranga',cursive;
     font-weight: bold;
+    left: 30px;
     font-size: 30px;
     background-color: #46484941 ;
     border-bottom: 3px solid rgba(187, 38, 27, 0.918);
@@ -51,7 +55,7 @@ h2 {
 }
 
 p {
-    font-family: Courier;
+    font-family: 'Ranga',cursive;
     font-size: 18pt;
     color: white;
     margin: 20px;
@@ -63,9 +67,9 @@ form {
 }
 
 input[type=text] {
-    width: 95%;
-    padding: 30px;
-    margin: 20px 0;
+    width: 100%;
+    padding: 25px;
+    margin: 25px 0;
     box-sizing: border-box;
 }
 
@@ -73,13 +77,15 @@ input[type=text] {
     color:#69C7E8;
     background-color: rgb(8, 3, 12);
     position: absolute;
+    font-family: 'Righteous',cursive;
+    font-size: 35px;
 }
 
 .image {
     position: relative;
     float: left;
     margin: 40px;
-    font-family: Courier;
+    font-family: 'Righteous',cursive;
 }
 
 .image::after {
@@ -111,4 +117,8 @@ input[type=text] {
     position: fixed;
     left: 50px;
     
+}
+
+form {
+    font-family: 'Righteous', cursive;
 }
