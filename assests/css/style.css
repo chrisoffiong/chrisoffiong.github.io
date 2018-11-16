@@ -49,6 +49,11 @@ h2 {
     border-bottom: 3px solid rgba(187, 38, 27, 0.918);
 }
 
+.image1 {
+    float: left;
+    margin: 20px;
+}
+
 p {
     font-family: 'Ranga',cursive;
     font-size: 18pt;
