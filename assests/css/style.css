@@ -13,7 +13,7 @@ body {
     font-family: Courier;
     background-image: url('../images/bg.png');
     color: white;
-    padding: 25px 200px 50px;
+    padding: 25px 10px 50px;
     
 }
 html, body {
@@ -23,16 +23,12 @@ html, body {
 
 .background {
     background-color: #5856532a;
-    
-  
-   
 }
 h1 {
     font-family: 'Righteous',cursive;
     font-weight: bold;
     color:white;
     background-color: rgba(163, 163, 165, 0.089);
-
     border-bottom: 5px solid rgba(199, 40, 29, 0.856);
   }
 
